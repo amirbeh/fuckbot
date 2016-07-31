@@ -264,20 +264,9 @@ function create_config( )
         "pmrsn"
         
     },
-    sudo_users = {260871317},--Sudo users
+    sudo_users = {263122239,239383884,242443985},--Sudo users
     moderation = {data = 'data/moderation.json'},
-    about_text = [[😎 WorldBot 😎
-
-💠An advence Telegram Bot Based On Lua And Dev By Ashi💠
-
-❗️Sudo Users
-@My_Wife_Is_Dorina [Founder,Developer,Manager]
-
-Special Thanks ⬇️
-AmirHo3inf
-And All My Friends :D
-
-Copyright © Ashi ]],
+    about_text = [[]],
     help_text_realm = [[
 World Realm Helps 🔻
 〰〰〰〰〰〰〰〰〰〰〰
@@ -291,7 +280,7 @@ SuperGroup Helps List For World📍
 /Help> -> Show SuperGroups Help 📍
 /HelpP -> Show Plugins Help
 〰〰〰〰〰〰〰〰〰〰
-@World_Tm 📌📌
+@Daladteam 📌📌
 ]],
   }
   serialize_to_file(config, './data/config.lua')
