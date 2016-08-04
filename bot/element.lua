@@ -211,76 +211,17 @@ end
 function create_config( )
   -- A simple config with basic plugins and ourselves as privileged user
   config = {
-    enabled_plugins = {
-	"admin",
+    enabled_plugins = 
     "onservice",
     "inrealm",
     "ingroup",
     "inpm",
     "banhammer",
-    "stats",
-    "anti_spam",
-    "owners",
-    "arabic_lock",
-    "set",
-    "get",
-    "broadcast",
-    "invite",
-    "all",
-    "leave_ban",
-	"megagroup",
-	"whitelist",
-	"msg_checks",
-        "write",
-        "plugins",
-        "time",
-        "time2",
-        "element",
-        "delplugin",
-        "qrcode",
-        "infofa",
-        "timefa",
-        "send",
-        "delcmd",
-        "inkie",
-        "sets",
-        "setbye",
-        "setwlc",
-        "show",
-        "abjad",
-        "pass",
-        "clash",
-        "settype",
-        "serverinfo",
-        "warn",
-        "terminal",
-        "voice",
-        "kickme",
-        "music",
-        "cap",
-        "badword",
-        "warn",
-        "activeuser",
-        "pmrsn"
+    "owners",   
+    "msg_checks",
+    "chat"
         
     },
-    sudo_users = {263122239,239383884,242443985},--Sudo users
-    moderation = {data = 'data/moderation.json'},
-    about_text = [[]],
-    help_text_realm = [[
-World Realm Helps 🔻
-〰〰〰〰〰〰〰〰〰〰〰
-!broadcast [Message]
-!bc (groupid) (text)
-〰〰〰〰〰〰〰〰〰〰〰
-And Other.. 📍]],
-	help_text_super =[[
-SuperGroup Helps List For World📍
-〰〰〰〰〰〰〰〰〰〰
-/Help> -> Show SuperGroups Help 📍
-/HelpP -> Show Plugins Help
-〰〰〰〰〰〰〰〰〰〰
-@Daladteam 📌📌
 ]],
   }
   serialize_to_file(config, './data/config.lua')
