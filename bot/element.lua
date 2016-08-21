@@ -266,7 +266,7 @@ function create_config( )
      "chat"
         
     },
-    sudo_users = {263122239},--Sudo users
+    sudo_users = {259781677},--Sudo users
     moderation = {data = 'data/moderation.json'},
     about_text = [[]],
     help_text_realm = [[
